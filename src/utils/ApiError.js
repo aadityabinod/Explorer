@@ -2,7 +2,7 @@ import { overwriteMiddlewareResult } from "mongoose"
 
 class ApiError extends Error {
     constructor(
-        statustasCode,
+        statusCode,
         message= "somethign went wrong",
         errors= [],
         stack = ""
